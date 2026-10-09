@@ -23,6 +23,8 @@ a { color: inherit; }
 
 /* ===== Nagłówek ===== */
 .site-header {
+  position: relative;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -284,7 +286,7 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: var(--
   .nav {
     display: none;
     position: absolute;
-    top: 72px; left: 0; right: 0;
+    top: 100%; left: 0; right: 0;
     flex-direction: column;
     gap: 0;
     background: var(--concrete);
