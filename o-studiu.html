@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O studiu | Kontur Studio</title>
+  <meta name="description" content="Poznaj zespół Kontur Studio i sposób, w jaki pracujemy nad projektami.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Kontur Studio, strona główna">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M3 37V17A20 20 0 0 1 23 37Z"/>
+        <rect x="3" y="3" width="34" height="34"/>
+      </svg>
+      <span>Kontur</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Główna nawigacja">
+      <a href="realizacje.html">Realizacje</a>
+      <a href="o-studiu.html" aria-current="page">O studiu</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <h1>O studiu</h1>
+      <p>Kontur Studio to czteroosobna pracownia z Bydgoszczy, działająca od 2014 roku. Dobra przestrzeń zaczyna się u nas od rozmowy, a nie od rysunku.</p>
+    </div>
+
+    <section class="section" aria-labelledby="team-title">
+      <div class="section-head"><h2 id="team-title">Zespół</h2></div>
+      <div class="team">
+        <article class="member">
+          <div class="thumb tone-a"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M20 90V50A30 30 0 0 1 80 50V90Z"/></svg></div>
+          <h3>Julia Kowalska</h3>
+          <p>Architektka, współzałożycielka</p>
+        </article>
+        <article class="member">
+          <div class="thumb tone-b"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M10 90V10A80 80 0 0 1 90 90Z"/></svg></div>
+          <h3>Tomasz Nowicki</h3>
+          <p>Architekt, współzałożyciel</p>
+        </article>
+        <article class="member">
+          <div class="thumb tone-c"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 14A36 36 0 0 1 50 86Z"/></svg></div>
+          <h3>Weronika Lis</h3>
+          <p>Projektantka wnętrz</p>
+        </article>
+        <article class="member">
+          <div class="thumb tone-d"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M10 90V70H30V50H50V30H70V10H90V90Z"/></svg></div>
+          <h3>Michał Dąbrowski</h3>
+          <p>Nadzór budowy</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark" aria-labelledby="process-title">
+      <div class="section-head"><h2 id="process-title">Jak pracujemy</h2></div>
+      <ol class="process">
+        <li><h3>Rozmowa</h3><p>Spotykamy się na działce albo w mieszkaniu. Pytamy, jak mieszkasz i pracujesz dziś, a nie jak chciałbyś mieszkać w katalogu.</p></li>
+        <li><h3>Koncepcja</h3><p>W dwa tygodnie przygotowujemy kilka układów na rysunkach i prostych bryłach. Wybierasz kierunek, my go dopracowujemy.</p></li>
+        <li><h3>Projekt</h3><p>Powstają rysunki wykonawcze, zestawienie materiałów i kosztorys. Wszystko, co potrzebne ekipie i urzędowi.</p></li>
+        <li><h3>Nadzór</h3><p>Jesteśmy na budowie co tydzień. Gdy coś nie zgadza się z rysunkiem, zmieniamy to od razu, a nie po odbiorze.</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Kontur Studio, ul. Gdańska 120, 85-021 Bydgoszcz</p>
+    <p><a href="mailto:biuro@kontur.studio">biuro@kontur.studio</a></p>
+    <p>&copy; <span id="year">2026</span> Kontur Studio. Projekt demonstracyjny.</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
